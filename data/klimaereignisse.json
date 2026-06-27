@@ -1,0 +1,248 @@
+[
+  {
+    "jahr": 1800,
+    "titel": "Erste Industrielle Revolution",
+    "beschreibung": "Kohle, Eisenbahn und Landrodung beschleunigen den Ausstoß von Treibhausgasen. Der CO₂-Gehalt der Atmosphäre liegt bei etwa 290 ppm, die globale Mitteltemperatur (1850–1900) bei rund 13,6 °C.",
+    "kategorie": "Wirtschaft & Politik"
+  },
+  {
+    "jahr": 1824,
+    "titel": "Fourier beschreibt den Treibhauseffekt",
+    "beschreibung": "Joseph Fourier schlägt vor, dass die Erde ohne Atmosphäre wesentlich kälter wäre – erste theoretische Grundlage des Treibhauseffekts.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1859,
+    "titel": "Tyndall entdeckt Infrarotabsorption",
+    "beschreibung": "John Tyndall zeigt, dass bestimmte Gase Infrarotstrahlung blockieren, und stellt fest, dass Veränderungen ihrer Konzentration das Klima beeinflussen könnten.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1879,
+    "titel": "Internationale Meteorologische Organisation gegründet",
+    "beschreibung": "Die IMO beginnt, globale Wetterdaten einschließlich Temperaturen zu sammeln und zu standardisieren – Grundlage für spätere Klimaforschung.",
+    "kategorie": "Politik & Institutionen"
+  },
+  {
+    "jahr": 1896,
+    "titel": "Arrhenius berechnet die globale Erwärmung",
+    "beschreibung": "Svante Arrhenius veröffentlicht die erste Berechnung der globalen Erwärmung durch menschliche CO₂-Emissionen und schätzt, dass eine Verdopplung des CO₂ zu mehreren Grad Erwärmung führen würde.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1938,
+    "titel": "Callendar: CO₂-Erwärmung ist im Gange",
+    "beschreibung": "Guy Callendar belegt anhand von 147 Wetterstationen einen globalen Temperaturanstieg und verknüpft ihn mit steigenden CO₂-Konzentrationen. Die Klimaforschung erhält neuen Auftrieb.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1945,
+    "titel": "US-Marineforschung fördert Klimawissenschaften",
+    "beschreibung": "Nach dem Zweiten Weltkrieg beginnt das US Office of Naval Research mit der großzügigen Finanzierung vieler Wissenschaftsbereiche – darunter Ozeanographie und Atmosphärenforschung.",
+    "kategorie": "Wirtschaft & Politik"
+  },
+  {
+    "jahr": 1956,
+    "titel": "Plass berechnet den CO₂-Strahlungseffekt",
+    "beschreibung": "Gilbert Plass belegt durch Berechnungen, dass zusätzliches CO₂ in der Atmosphäre den Strahlungshaushalt der Erde signifikant verändert und zur Erwärmung beiträgt.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1957,
+    "titel": "Internationales Geophysikalisches Jahr",
+    "beschreibung": "Angetrieben vom Kalten Krieg und dem Sputnik-Schock starten Länder weltweit das Internationale Geophysikalische Jahr – mit massiver Förderung für Klimaforschung. Revelle zeigt, dass CO₂ nicht einfach von den Ozeanen aufgenommen wird.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1960,
+    "titel": "Keeling-Kurve: CO₂-Anstieg erstmals belegt",
+    "beschreibung": "Charles David Keeling misst auf Mauna Loa (Hawaii) präzise den CO₂-Gehalt der Atmosphäre und dokumentiert einen stetigen Anstieg. CO₂-Wert: 315 ppm. Globale Mitteltemperatur: 13,9 °C.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1967,
+    "titel": "Modell: CO₂-Verdopplung = +2 °C",
+    "beschreibung": "Manabe und Wetherald erstellen eine überzeugende Klimamodellrechnung: Eine Verdopplung des CO₂-Gehalts würde die globale Temperatur um einige Grad steigen lassen.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1968,
+    "titel": "Warnung vor Kollaps des antarktischen Eisschildes",
+    "beschreibung": "Studien deuten auf die Möglichkeit eines Zusammenbruchs des westantarktischen Eisschilds hin, was den Meeresspiegel katastrophal ansteigen lassen würde.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1970,
+    "titel": "Erster Earth Day",
+    "beschreibung": "Der erste Earth Day markiert den Durchbruch der Umweltbewegung. In den USA wird die National Oceanic and Atmospheric Administration (NOAA) gegründet, der weltweit führende Förderer der Klimaforschung.",
+    "kategorie": "Gesellschaft"
+  },
+  {
+    "jahr": 1972,
+    "titel": "Welternährungskrise durch Dürren",
+    "beschreibung": "Schwere Dürren in Afrika, der Ukraine und Indien lösen eine globale Nahrungsmittelkrise aus und schüren Ängste vor den Folgen des Klimawandels.",
+    "kategorie": "Extremereignis"
+  },
+  {
+    "jahr": 1975,
+    "titel": "Verbesserte Klimamodelle bestätigen Erwärmung",
+    "beschreibung": "Manabe und Mitarbeitende entwickeln komplexe, aber realistische Computermodelle, die bei einer CO₂-Verdopplung einen Temperaturanstieg von mehreren Grad zeigen.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1979,
+    "titel": "NAS-Bericht: 1,5–4,5 °C Erwärmung bei CO₂-Verdopplung",
+    "beschreibung": "Die US National Academy of Sciences hält es für hochwahrscheinlich, dass eine Verdopplung des CO₂ zu einer globalen Erwärmung von 1,5 bis 4,5 °C führt. Das Weltklima-Forschungsprogramm wird gestartet.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1982,
+    "titel": "Starke Erwärmung seit den 1970ern gemeldet",
+    "beschreibung": "Wissenschaftler berichten von einer deutlichen globalen Erwärmung seit Mitte der 1970er Jahre; 1981 ist das bisher wärmste Jahr der Aufzeichnungsgeschichte.",
+    "kategorie": "Rekord"
+  },
+  {
+    "jahr": 1985,
+    "titel": "Antarktis-Eiskerne: CO₂ und Temperatur steigen gemeinsam",
+    "beschreibung": "Eiskerne aus der Antarktis belegen, dass CO₂ und Temperatur in der Vergangenheit gemeinsam zu- und abnahmen – ein Hinweis auf mächtige Rückkopplungsmechanismen im Klimasystem.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1987,
+    "titel": "Montrealer Protokoll zum Schutz der Ozonschicht",
+    "beschreibung": "Internationales Abkommen verpflichtet Staaten zur Reduzierung ozonabbauender Gase – ein Beweis, dass globale Klimaschutzmaßnahmen möglich sind.",
+    "kategorie": "Politik & Institutionen"
+  },
+  {
+    "jahr": 1988,
+    "titel": "IPCC gegründet – Klimawandel in aller Munde",
+    "beschreibung": "Rekordtemperaturen und Dürren rücken die globale Erwärmung ins Rampenlicht der Medien. Der Intergovernmental Panel on Climate Change (IPCC) wird gegründet. Großbritanniens Premierministerin Thatcher ist die erste Regierungschefin, die zum Handeln aufruft.",
+    "kategorie": "Politik & Institutionen"
+  },
+  {
+    "jahr": 1990,
+    "titel": "Erster IPCC-Bericht: Erde erwärmt sich",
+    "beschreibung": "Der erste IPCC-Bericht stellt fest, dass die Welt sich erwärmt hat und eine weitere Erwärmung wahrscheinlich ist.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1991,
+    "titel": "Vulkanausbruch Pinatubo kühlt die Erde",
+    "beschreibung": "Der Ausbruch des Mount Pinatubo auf den Philippinen schleudert Schwefeldioxid in die Stratosphäre und kühlt das globale Klima vorübergehend um rund 0,5 °C – ein natürliches Experiment, das Klimamodelle bestätigt.",
+    "kategorie": "Extremereignis"
+  },
+  {
+    "jahr": 1992,
+    "titel": "UN-Klimarahmenkonvention in Rio de Janeiro",
+    "beschreibung": "Beim Erdgipfel in Rio einigen sich Regierungen auf die UN-Klimarahmenkonvention (UNFCCC) – das erste verbindliche Ziel: gefährliche menschliche Eingriffe in das Klimasystem verhindern.",
+    "kategorie": "Politik & Institutionen"
+  },
+  {
+    "jahr": 1995,
+    "titel": "Zweiter IPCC-Bericht: menschlicher Einfluss nachweisbar",
+    "beschreibung": "Der zweite IPCC-Bericht erkennt einen klaren menschlichen Einfluss auf das Klima und warnt vor schwerwiegender Erwärmung im kommenden Jahrhundert.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 1997,
+    "titel": "Kyoto-Protokoll verabschiedet",
+    "beschreibung": "Das Kyoto-Protokoll setzt erstmals verbindliche Reduktionsziele für Treibhausgasemissionen der Industrieländer. Toyota bringt den ersten Massenprodukts-Hybridwagen (Prius) auf den Markt.",
+    "kategorie": "Politik & Institutionen"
+  },
+  {
+    "jahr": 1998,
+    "titel": "Super-El-Niño: bisher wärmstes Jahr",
+    "beschreibung": "Ein außergewöhnlich starkes El-Niño-Ereignis macht 1998 zum bis dahin wärmsten Jahr der Messgeschichte.",
+    "kategorie": "Rekord"
+  },
+  {
+    "jahr": 1999,
+    "titel": "Hockeyschläger-Kurve veröffentlicht",
+    "beschreibung": "Michael Manns sogenannte Hockeyschläger-Kurve zeigt, dass die aktuelle Erwärmung in der Geschichte beispiellos ist.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 2001,
+    "titel": "Dritter IPCC-Bericht: globale Erwärmung sehr wahrscheinlich",
+    "beschreibung": "Der dritte IPCC-Bericht erklärt globale Erwärmung seit dem Ende der letzten Eiszeit für beispiellos und 'sehr wahrscheinlich' durch menschliche Einflüsse verursacht. Der wissenschaftliche Konsens ist gefestigt.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 2003,
+    "titel": "Tödliche Hitzewelle in Europa",
+    "beschreibung": "Eine extreme Hitzewelle fordert in Europa über 70.000 Todesopfer und vertieft die öffentliche Wahrnehmung des Klimawandels – vor allem in Europa.",
+    "kategorie": "Extremereignis"
+  },
+  {
+    "jahr": 2005,
+    "titel": "Kyoto-Protokoll tritt in Kraft",
+    "beschreibung": "Das Kyoto-Protokoll tritt in Kraft, ratifiziert von den meisten Industrienationen außer den USA. Hurrikan Katrina verwüstet New Orleans und entfacht Debatte über klimabedingte Stürme.",
+    "kategorie": "Politik & Institutionen"
+  },
+  {
+    "jahr": 2006,
+    "titel": "China überholt die USA als größter CO₂-Emittent",
+    "beschreibung": "China wird zum weltgrößten Emittenten von CO₂ und verändert damit die geopolitische Dimension der Klimadebatte grundlegend.",
+    "kategorie": "Wirtschaft & Politik"
+  },
+  {
+    "jahr": 2007,
+    "titel": "Vierter IPCC-Bericht: Folgen bereits sichtbar",
+    "beschreibung": "Der vierte IPCC-Bericht warnt, dass ernst­hafte Auswirkungen der Erwärmung bereits spürbar sind. Grönland- und Antarktis-Eisschilde sowie das arktische Meereis schmelzen schneller als erwartet.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 2009,
+    "titel": "Kopenhagener Klimakonferenz scheitert",
+    "beschreibung": "Die UN-Klimakonferenz in Kopenhagen (COP15) scheitert daran, verbindliche Abkommen zu erzielen – ein schwerer Rückschlag für den internationalen Klimaschutz.",
+    "kategorie": "Politik & Institutionen"
+  },
+  {
+    "jahr": 2012,
+    "titel": "Klimawandel als Treiber von Extremwetter belegt",
+    "beschreibung": "Attributionsstudien belegen erstmals, dass bestimmte Hitzewellen, Dürren und Überschwemmungen durch den Klimawandel wahrscheinlicher oder intensiver geworden sind.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 2015,
+    "titel": "Pariser Klimaabkommen",
+    "beschreibung": "Fast alle Staaten der Welt unterzeichnen das Pariser Abkommen und verpflichten sich, die Erderwärmung auf deutlich unter 2 °C, möglichst 1,5 °C, zu begrenzen. Forscher warnen zugleich, dass der Westantarktische Eisschild möglicherweise bereits irreversibel destabilisiert ist.",
+    "kategorie": "Politik & Institutionen"
+  },
+  {
+    "jahr": 2016,
+    "titel": "Solar- und Windenergie werden wettbewerbsfähig",
+    "beschreibung": "Solarstrom und Windenergie erreichen in vielen Regionen der Welt die Kostenparität mit fossilen Brennstoffen – ein Wendepunkt für die Energiewende.",
+    "kategorie": "Wirtschaft & Politik"
+  },
+  {
+    "jahr": 2018,
+    "titel": "IPCC-Sonderbericht 1,5 °C",
+    "beschreibung": "Ein Sonderbericht des IPCC warnt: Um gefährlichen Klimawandel zu vermeiden, müssen die globalen Emissionen bis 2030 drastisch sinken – bei 1,5 °C Erwärmung sind die Schäden deutlich geringer als bei 2 °C.",
+    "kategorie": "Wissenschaft"
+  },
+  {
+    "jahr": 2019,
+    "titel": "Klimaproteste weltweit",
+    "beschreibung": "Millionen Menschen demonstrieren weltweit für mehr Klimaschutz – angespornt durch Bewegungen wie Fridays for Future. Zunehmen­de Extrem­ereignisse (Waldbrände, Hitzewellen, Überschwemmungen) erhöhen den Druck.",
+    "kategorie": "Gesellschaft"
+  },
+  {
+    "jahr": 2021,
+    "titel": "Sechster IPCC-Bericht & Glasgower Klimagipfel",
+    "beschreibung": "Der sechste IPCC-Sachstandsbericht warnt, dass katastrophale Szenarien nicht ausgeschlossen werden können. Der Klimagipfel in Glasgow (COP26) erzielt Zusagen zur Emissionsreduzierung – jedoch nicht ausreichend für das 1,5-°C-Ziel.",
+    "kategorie": "Politik & Institutionen"
+  },
+  {
+    "jahr": 2024,
+    "titel": "Wärmstes Jahr der Messgeschichte",
+    "beschreibung": "2024 ist das wärmste Jahr seit Beginn der Temperaturaufzeichnungen. Ein sich beschleunigendes planetares Energieungleichgewicht und schwindende Kapazität der Ökosysteme zur CO₂-Aufnahme deuten auf eine schnellere Erwärmung als erwartet.",
+    "kategorie": "Rekord"
+  },
+  {
+    "jahr": 2025,
+    "titel": "CO₂ auf Rekordniveau – 426 ppm",
+    "beschreibung": "Die globale Durchschnittstemperatur (Fünfjahresmittel) liegt bei 14,9 °C – ein Anstieg von etwa 1,4 °C gegenüber dem 19. Jahrhundert, der wärmste Wert seit Zehntausenden von Jahren. CO₂-Konzentration: 426 ppm – der höchste Wert seit Millionen von Jahren.",
+    "kategorie": "Rekord"
+  }
+]
