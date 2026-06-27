@@ -1,0 +1,189 @@
+[
+  {
+    "grad": 1.5,
+    "label": "+1,5 °C",
+    "beschreibung": "Das Ziel des Pariser Klimaabkommens. Schwerwiegende Folgen sind bereits spürbar, aber viele Kipppunkte bleiben noch außer Reichweite.",
+    "kategorien": [
+      {
+        "thema": "Artensterben",
+        "icon": "🐾",
+        "auswirkung": "6 % der Insekten, 8 % der Pflanzen und 4 % der Wirbeltiere vom Aussterben bedroht."
+      },
+      {
+        "thema": "Korallenriffe",
+        "icon": "🪸",
+        "auswirkung": "70–90 % aller Korallenriffe weltweit gehen bis 2050 verloren."
+      },
+      {
+        "thema": "Hitzewellen",
+        "icon": "🌡️",
+        "auswirkung": "9 % der Weltbevölkerung (rund 700 Millionen Menschen) sind extremen Hitzewellen mindestens einmal alle 20 Jahre ausgesetzt."
+      },
+      {
+        "thema": "Dürre & Wassermangel",
+        "icon": "🏜️",
+        "auswirkung": "50 Millionen Menschen im urbanen Raum sind von Dürre und Wasserknappheit betroffen."
+      },
+      {
+        "thema": "Hochwasser",
+        "icon": "🌊",
+        "auswirkung": "Das Hochwasserrisiko ist doppelt so hoch wie vor der Industrialisierung."
+      },
+      {
+        "thema": "Arktisches Meereis",
+        "icon": "🧊",
+        "auswirkung": "Einmal pro Jahrhundert ein eisfreier Sommer in der Arktis."
+      },
+      {
+        "thema": "Gletscher",
+        "icon": "⛰️",
+        "auswirkung": "50 % der globalen Gletschermasse von 2015 sind geschmolzen."
+      },
+      {
+        "thema": "Meeresspiegel",
+        "icon": "🌍",
+        "auswirkung": "Anstieg von 26–77 cm bis 2100 gegenüber dem Referenzzeitraum 1986–2005."
+      }
+    ],
+    "quellen": ["IPCC AR6 (2021/2022)", "WWF Österreich (2023)"]
+  },
+  {
+    "grad": 2.0,
+    "label": "+2 °C",
+    "beschreibung": "Die obere Grenze des Pariser Abkommens. Viele Risiken verdoppeln sich gegenüber 1,5 °C — Ökosysteme und Küstenregionen geraten unter massiven Druck.",
+    "kategorien": [
+      {
+        "thema": "Artensterben",
+        "icon": "🐾",
+        "auswirkung": "18 % der Insekten, 16 % der Pflanzen und 8 % der Wirbeltiere vom Aussterben bedroht — mehr als doppelt so viele wie bei 1,5 °C."
+      },
+      {
+        "thema": "Korallenriffe",
+        "icon": "🪸",
+        "auswirkung": "Nahezu alle Korallenriffe weltweit (98–99 %) sind bis 2050 verschwunden."
+      },
+      {
+        "thema": "Hitzewellen",
+        "icon": "🌡️",
+        "auswirkung": "28 % der Weltbevölkerung (rund 2 Milliarden Menschen) sind extremen Hitzewellen mindestens einmal alle 20 Jahre ausgesetzt."
+      },
+      {
+        "thema": "Dürre & Wassermangel",
+        "icon": "🏜️",
+        "auswirkung": "410 Millionen Menschen im urbanen Raum sind von Dürre und Wasserknappheit betroffen — achtmal mehr als bei 1,5 °C."
+      },
+      {
+        "thema": "Hochwasser",
+        "icon": "🌊",
+        "auswirkung": "Das Hochwasserrisiko ist 170 % höher als vor der Industrialisierung."
+      },
+      {
+        "thema": "Arktisches Meereis",
+        "icon": "🧊",
+        "auswirkung": "Einmal pro Jahrzehnt ein eisfreier Sommer in der Arktis — zehnmal häufiger als bei 1,5 °C."
+      },
+      {
+        "thema": "Gletscher",
+        "icon": "⛰️",
+        "auswirkung": "60 % der globalen Gletschermasse von 2015 sind geschmolzen."
+      },
+      {
+        "thema": "Meeresspiegel",
+        "icon": "🌍",
+        "auswirkung": "Rund 10 cm mehr Anstieg als bei 1,5 °C — bis zu 10 Millionen zusätzliche Menschen betroffen."
+      }
+    ],
+    "quellen": ["IPCC AR6 (2021/2022)", "WWF Österreich (2023)"]
+  },
+  {
+    "grad": 3.0,
+    "label": "+3 °C",
+    "beschreibung": "Ein Szenario mit unzureichendem Klimaschutz. Mehrere Kipppunkte könnten überschritten werden, viele Regionen der Welt werden dauerhaft unbewohnbar.",
+    "kategorien": [
+      {
+        "thema": "Artensterben",
+        "icon": "🐾",
+        "auswirkung": "Ein großer Teil der Tier- und Pflanzenarten ist bedroht. Bei 3,5 °C gelten 20–60 % der Vögel und Amphibien als hochgradig gefährdet."
+      },
+      {
+        "thema": "Korallenriffe",
+        "icon": "🪸",
+        "auswirkung": "Korallenriffe sind in diesem Szenario nahezu vollständig verschwunden. Die Ozeanversauerung beschleunigt sich weiter."
+      },
+      {
+        "thema": "Hitzewellen",
+        "icon": "🌡️",
+        "auswirkung": "Extreme Hitzewellen treten in vielen Regionen mehrmals pro Jahrzehnt auf. In Teilen der Tropen und Subtropen wird Arbeit im Freien zeitweise unmöglich."
+      },
+      {
+        "thema": "Dürre & Wassermangel",
+        "icon": "🏜️",
+        "auswirkung": "Starkniederschläge nehmen um rund 20 % zu. Gleichzeitig werden ohnehin trockene Regionen (Mittelmeer, Südafrika, Südwesten der USA) drastisch trockener."
+      },
+      {
+        "thema": "Landwirtschaft",
+        "icon": "🌾",
+        "auswirkung": "Ernteverluste in tropischen Regionen nehmen stark zu. Der Anteil der von Dürre bedrohten Ackerflächen steigt von 15 % auf über 30 %."
+      },
+      {
+        "thema": "Meeresspiegel",
+        "icon": "🌍",
+        "auswirkung": "Der Meeresspiegel steigt deutlich schneller. Küstenstädte und Inselstaaten stehen vor existenziellen Bedrohungen."
+      },
+      {
+        "thema": "Kipppunkte",
+        "icon": "⚠️",
+        "auswirkung": "Das Risiko, dass Kipppunkte wie das Auftauen von Permafrostböden oder der Zerfall des Westantarktischen Eisschilds ausgelöst werden, steigt erheblich."
+      }
+    ],
+    "quellen": ["IPCC AR6 (2021/2022)", "klimafakten.de / IPCC AR5 (2014)", "Max-Planck-Gesellschaft (2025)"]
+  },
+  {
+    "grad": 4.0,
+    "label": "+4 °C",
+    "beschreibung": "Das Szenario ungebremster Emissionen. Der IPCC warnt: Bei 4 °C sind die weltweiten Klimarisiken 'hoch bis sehr hoch'. Die Erde wäre wärmer als in den vergangenen 18.000 Jahren.",
+    "kategorien": [
+      {
+        "thema": "Hitzewellen",
+        "icon": "🌡️",
+        "auswirkung": "Ein heutiges 20-Jahres-Extremereignis tritt dann mindestens alle 10 Jahre auf, in manchen Regionen alle 1–2 Jahre. Rund ums Mittelmeer wären alle Sommermonate wärmer als die heftigsten Hitzewellen von heute."
+      },
+      {
+        "thema": "Dürre & Fluten",
+        "icon": "🏜️",
+        "auswirkung": "Auf der Hälfte der Erdoberfläche nimmt die Häufigkeit von Fluten zu. Flüsse wie Donau, Mississippi und Amazonas könnten bis zu 75 % weniger Wasser führen. In Europa wären zusätzlich 250.000–400.000 Menschen von Überschwemmungen bedroht."
+      },
+      {
+        "thema": "Landwirtschaft & Ernährung",
+        "icon": "🌾",
+        "auswirkung": "44 % der weltweiten Ackerflächen wären stark von Dürren bedroht (heute: 15 %). In Afrika südlich der Sahara drohen Ernteverluste von 19 % bei Mais und 68 % bei Bohnen."
+      },
+      {
+        "thema": "Artensterben",
+        "icon": "🐾",
+        "auswirkung": "Ein 'großer Teil' der Arten ist bedroht. Tierarten müssten im Schnitt 70 km pro Jahrzehnt wandern — viele schaffen das nicht. Großflächiges Waldsterben wird erwartet."
+      },
+      {
+        "thema": "Korallenriffe & Ozeane",
+        "icon": "🪸",
+        "auswirkung": "Weiträumiges Korallensterben durch Erwärmung und Ozeanversauerung. Der pH-Wert der Ozeane würde auf 7,7–7,8 sinken (vorindustriell: 8,2)."
+      },
+      {
+        "thema": "Meeresspiegel & Kipppunkte",
+        "icon": "🌍",
+        "auswirkung": "Der Nordpol wäre schon ab Mitte des Jahrhunderts im Sommer eisfrei. Der Golfstrom (AMOC) schwächt sich um ein Drittel ab. Langfristig droht ein Meeresspiegel-Anstieg von bis zu 7 Metern durch das Abschmelzen Grönlands."
+      },
+      {
+        "thema": "Gesundheit & Arbeit",
+        "icon": "🏥",
+        "auswirkung": "In einigen Weltregionen wäre Arbeit unter freiem Himmel zeitweise physisch unmöglich. Die Arbeitsproduktivität in den heißesten Monaten könnte um 40 % sinken."
+      },
+      {
+        "thema": "Konflikte & Migration",
+        "icon": "🚶",
+        "auswirkung": "Mehr Klimaflüchtlinge, da viele Regionen zwischen Anpassung und Flucht keine Wahl mehr haben. Der Klimawandel verstärkt Armut und Ressourcenknappheit als Konflikttreiber."
+      }
+    ],
+    "quellen": ["IPCC AR5 & AR6", "klimafakten.de (2014)", "Weltbank 'Turn down the Heat' (2013)"]
+  }
+]
