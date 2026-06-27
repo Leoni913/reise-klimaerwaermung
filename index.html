@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zeitreise durch die globale Erwärmung</title>
+<meta name="description" content="Interaktive Website zur globalen Erwärmung mit Temperaturdaten, Emissionen und Zukunftsszenarien.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="nav">
+  <a href="#prolog" data-t="prolog"><span>Einführung</span><span class="dot"></span></a>
+  <a href="#akt1" data-t="akt1"><span>Vergangenheit</span><span class="dot"></span></a>
+  <a href="#akt2" data-t="akt2"><span>Gegenwart</span><span class="dot"></span></a>
+  <a href="#akt3" data-t="akt3"><span>Zukunft</span><span class="dot"></span></a>
+  <a href="#akt4" data-t="akt4"><span>Bedeutung</span><span class="dot"></span></a>
+</nav>
+<section id="prolog">
+  <div class="prolog-intro">
+    <h1 class="intro-title">Eine Zeitreise durch die<br>globale Erw&auml;rmung</h1>
+    <p class="intro-text">Von den ersten Temperaturmessungen im Jahr 1880 bis zu den Szenarien f&uuml;r das Jahr 2100: Diese interaktive Reise zeigt, wie sich unser Klima ver&auml;ndert hat &mdash; und welche Zukunft noch in unserer Hand liegt.</p>
+  </div>
+  <div class="prolog-stage">
+    <div class="herostripes" id="herostripes"></div>
+    <div class="herofade"></div>
+    <svg class="pstripes" id="pstripes" preserveAspectRatio="none"></svg>
+    <div class="pcontent">
+      <h2 class="prolog-q">In welchem Jahr bist du geboren?</h2>
+      <div class="input-wrap">
+        <input id="year" type="number" min="1880" max="2025" placeholder="19__" inputmode="numeric">
+        <button id="go" disabled>Zeig es mir</button>
+      </div>
+      <div class="hint">Tippe ein Jahr zwischen 1880 und 2025 ein.</div>
+      <div class="legendmini"><span>K&auml;lter</span><span class="bar"></span><span>W&auml;rmer</span></div>
+      <div class="input-results">
+        <div class="pstats">
+          <div class="pstat card"><div class="v r" id="ps-delta">+1,2&deg;C</div><div class="l">globale Erw&auml;rmung seit 1880</div></div>
+          <div class="pstat card"><div class="v o">+51&nbsp;%</div><div class="l">mehr CO&#8322; in der Atmosph&auml;re seit der Industrialisierung</div></div>
+          <div class="pstat card"><div class="v o" id="ps-warm">10</div><div class="l">w&auml;rmsten Jahre lagen allesamt in den letzten 11&nbsp;Jahren</div></div>
+          <div class="pstat card"><div class="v r">2024</div><div class="l">w&auml;rmstes Jahr der Messgeschichte</div></div>
+        </div>
+        <div id="presult" class="card">
+          <div class="big"><span id="delta">+0,0</span><span class="unit">&deg;C</span></div>
+          <p class="sentence" id="sentence"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="prolog-lifepath">
+    <div id="lifepath">
+      <div class="lp-title">Dein pers&ouml;nlicher Klima-Lebensweg</div>
+      <div class="lp-track" id="lpTrack"></div>
+      <p class="lp-note">Werte als Abweichung vom Mittel 1951&ndash;1980. Die beiden letzten Punkte sind <b>Projektionen</b> f&uuml;r ein Szenario mit weiterhin hohen Emissionen &mdash; sie sind kein Schicksal, sondern eine von vielen m&ouml;glichen Zukunft.</p>
+    </div>
+  </div>
+  <a href="#akt1" class="scrollcue">&darr; Weiter zur Reise</a>
+</section>
+<section id="akt1">
+  <div class="reveal">
+    <div class="kicker"><span class="akt-no">Die Vergangenheit</span></div>
+    <h2>146 Jahre, in einer Linie.</h2>
+    <p class="body">Seit 1880 misst die NASA die globale Durchschnitts&shy;temperatur. Jede Schwankung ist hier ein Jahr &mdash; und der Anstieg der letzten Jahrzehnte ist un&uuml;bersehbar. Die Nulllinie markiert das Mittel der Jahre 1951&ndash;1980. Fahre &uuml;ber die Punkte, um wichtige Wegmarken zu sehen.</p>
+  </div>
+  <div class="chart-wrap card reveal"><svg id="chart-temp" viewBox="0 0 1100 460"></svg></div>
+  <div class="stripes-wrap reveal">
+    <div class="stripes-title">Klimastreifen &middot; ein Streifen je Jahr</div>
+    <svg id="chart-stripes" viewBox="0 0 1100 70" preserveAspectRatio="none"></svg>
+    <div class="stripes-years" id="stripeYears"><span class="s-first">1880</span><span class="s-last">2025</span></div>
+  </div>
+</section>
+<section id="akt2" class="akt-bg">
+  <div class="reveal">
+    <div class="kicker"><span class="akt-no">Die Gegenwart</span></div>
+    <h2>Wer heizt die Erde ein?</h2>
+    <p class="body">Treibhausgas-Emissionen pro Land. Bewege den Regler oder dr&uuml;cke Play, um die Entwicklung von 1990 bis 2023 zu durchlaufen. Wechsle zwischen <b>Gesamt&shy;ausstoß</b> und <b>Pro&nbsp;Kopf</b> &mdash; das ver&auml;ndert das Bild dramatisch.</p>
+  </div>
+  <div class="map-wrap card reveal" id="akt2-wrap">
+    <div class="map-controls">
+      <button id="playBtn" aria-label="Abspielen">&#9654;</button>
+      <span id="yearLabel">1990</span>
+      <input id="yearSlider" type="range" min="1990" max="2023" value="1990" step="1">
+      <div class="toggle-with-info">
+  <div class="toggle" role="group" aria-label="Darstellungsmodus">
+    <button id="modeTotal" class="active">Gesamt</button>
+    <button id="modePer">Pro Kopf</button>
+  </div>
+
+  <div class="legende-wrap">
+    <button class="info-btn" aria-label="Einheiten erklären" tabindex="0">
+      i
+      <div class="info-tooltip" role="tooltip">
+        <div class="tooltip-kopf">Einheiten</div>
+
+        <div class="tooltip-zeile">
+          <span class="tooltip-badge gesamt">Gesamt</span>
+          <span class="tooltip-text">
+            <strong>MtCO₂e</strong> — Megatonnen CO₂-Äquivalente.
+            Alle Treibhausgase wie CO₂, CH₄ und N₂O werden anhand
+            ihrer Klimawirkung in CO₂ umgerechnet und summiert.
+          </span>
+        </div>
+
+        <hr class="tooltip-trennlinie">
+
+        <div class="tooltip-zeile">
+          <span class="tooltip-badge prokopf">Pro Kopf</span>
+          <span class="tooltip-text">
+            <strong>tCO₂e</strong> — Tonnen CO₂-Äquivalente
+            pro Person und Jahr.
+          </span>
+        </div>
+
+        <hr class="tooltip-trennlinie">
+
+        <div class="tooltip-fuss">
+          1 Megatonne = 1.000.000 Tonnen<br>
+          Quelle: ClimateWatch / World Bank
+        </div>
+      </div>
+    </button>
+  </div>
+</div>
+    </div>
+    <div class="map-layout">
+      <div>
+        <svg id="chart-map" viewBox="0 0 1100 560"></svg>
+        <div class="map-status" id="mapStatus"></div>
+      </div>
+      <div class="rank-panel card">
+        <h4 id="rankTitle">Top 5 &middot; 1990</h4>
+        <div id="rankList"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="akt3">
+  <div class="reveal">
+    <div class="kicker"><span class="akt-no">Die Zukunft</span></div>
+    <h2>Welche Zukunft w&auml;hlen wir?</h2>
+    <p class="body">W&auml;hle ein Land und sieh, wie warm es im Jahresmittel wird &mdash; unter drei m&ouml;glichen Pfaden: <b style="color:var(--blau)">Klimaschutz</b>, <b style="color:var(--orange)">Mittlerer&nbsp;Pfad</b> und <b style="color:var(--rot)">Hohe&nbsp;Emissionen</b>. Das schattierte Band zeigt die Unsicherheit, die Linie den wahrscheinlichsten Wert.</p>
+  </div>
+  <div class="fan-wrap card reveal" id="akt3-wrap">
+    <div class="fan-controls">
+      <label for="countrySelect">Land</label>
+      <select id="countrySelect"></select>
+    </div>
+<div class="fan-legend-wrap">
+  <div class="fan-legend" id="fanLegend"></div>
+
+  <div class="fan-info-wrap">
+    <button class="fan-info-btn" aria-label="Szenarien erklären" tabindex="0">
+      i
+      <span class="fan-info-tooltip" role="tooltip">
+        <span class="tooltip-kopf">Szenarien erklärt</span>
+
+        <span class="tooltip-zeile">
+          <span class="tooltip-badge ssp-blue">SSP2-4.5</span>
+          <span class="tooltip-text">
+            <strong>Klimaschutz</strong> — ein mittlerer gesellschaftlicher Entwicklungspfad
+            mit spürbaren Klimaschutzmaßnahmen. Die Erwärmung wird gebremst,
+            aber nicht vollständig gestoppt.
+          </span>
+        </span>
+
+        <span class="tooltip-trennlinie"></span>
+
+        <span class="tooltip-zeile">
+          <span class="tooltip-badge ssp-orange">SSP3-7.0</span>
+          <span class="tooltip-text">
+            <strong>Mittlerer Pfad</strong> — schwächerer internationaler Klimaschutz,
+            mehr regionale Konflikte und höhere Emissionen. Die Temperaturen steigen
+            deutlich stärker.
+          </span>
+        </span>
+
+        <span class="tooltip-trennlinie"></span>
+
+        <span class="tooltip-zeile">
+          <span class="tooltip-badge ssp-red">SSP5-8.5</span>
+          <span class="tooltip-text">
+            <strong>Hohe Emissionen</strong> — sehr fossiles, emissionsintensives Szenario
+            mit wenig wirksamem Klimaschutz. Das ist der Pfad mit der stärksten Erwärmung.
+          </span>
+        </span>
+
+        <span class="tooltip-trennlinie"></span>
+
+        <span class="tooltip-fuss">
+          SSP = Shared Socioeconomic Pathway<br>
+          Die Zahl dahinter beschreibt näherungsweise den Strahlungsantrieb bis 2100.
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+    <svg id="chart-fan" viewBox="0 0 1100 500"></svg>
+    <p id="fanSentence"></p>
+  </div>
+</section>
+<section id="akt4">
+  <div class="reveal">
+    <div class="kicker"><span class="akt-no">Was bedeutet das f&uuml;r uns?</span></div>
+    <h2>Mehr als eine Zahl auf einer Skala.</h2>
+    <p class="body">Jedes Zehntelgrad ver&auml;ndert, wie wir leben. Steigen die Emissionen ungebremst weiter und steuern wir auf eine Welt zu, die rund <b style="color:var(--rot)">4&nbsp;&deg;C</b> w&auml;rmer ist als vor der Industrialisierung, bedeutet das konkret:</p>
+    <div class="grad-explorer reveal" id="gradExplorer">
+      <div class="ge-glow" id="geGlow"></div>
+      <div class="ge-inner">
+        <div class="ge-eyebrow">W&auml;hle ein Szenario &mdash; und sieh, was es bedeutet</div>
+        <div class="ge-big" id="geBig">+1,5&nbsp;&deg;C</div>
+        <div class="ge-track"><div class="ge-line"></div><div class="ge-stops" id="geStops"></div></div>
+        <p class="ge-desc" id="geDesc"></p>
+        <div class="ge-grid" id="geGrid"></div>
+      </div>
+    </div>
+    <div class="closing reveal">
+      <div class="big">Die Zukunft ist <em>nicht festgeschrieben.</em></div>
+      <p>Jeder der gezeigten Pfade ist eine Entscheidung &mdash; getroffen in den kommenden Jahren und Jahrzehnten. Welche Linie am Ende Wirklichkeit wird, h&auml;ngt von uns ab.</p>
+    </div>
+  </div>
+</section>
+<footer>
+  <b>Datenquellen:</b> Climate Impact Lab (Projektionen) &middot; ClimateWatch / World Bank (Emissionen) &middot; IPCC (AR5 &amp; AR6) &middot; klimafakten.de &middot; Max-Planck-Gesellschaft &middot; NASA GISTEMP v4 &middot; NOAA (CO&#8322; Mauna Loa, Billion-Dollar Disasters) &middot; Our World in Data &middot; Weltbank &bdquo;Turn down the Heat&ldquo; &middot; world-atlas / Natural Earth (L&auml;ndergrenzen) &middot; WWF &Ouml;sterreich.<br>
+  Erstellt im Rahmen des Moduls Interaktive Medien &mdash; Projekt &bdquo;Zeitreise durch die globale Erw&auml;rmung&ldquo; im 6.&nbsp;Semester Medienmanagement.
+</footer>
+<a href="#prolog" id="backToTop" class="back-to-top" aria-label="Zurück nach oben">↑</a>
+<div class="tip" id="tip"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<script src="main.js"></script>
+</body>
+</html>
